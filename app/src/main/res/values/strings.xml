@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Spinner_Display_After_Select</string>
+
+    //=========== coching names
+    <string-array name="coching_names">
+        <item>Select a Coching</item>
+        <item>Probah</item>
+        <item>Science Point</item>
+        <item>Udvash</item>
+        <item>3 Doctorts</item>
+    </string-array>
+
+    //======== all unit
+
+    <string-array name="unit_probah">
+        <item>Select a Unit</item>
+        <item>Unit A</item>
+        <item>Unit B</item>
+        <item>Unit C</item>
+        <item>Unit D</item>
+    </string-array>
+    <string-array name="unit_science">
+        <item>Select a Unit</item>
+        <item>Unit A</item>
+        <item>Unit B</item>
+        <item>Unit C</item>
+
+    </string-array>
+    <string-array name="unit_udvash">
+        <item>Select a Unit</item>
+        <item>Unit A</item>
+        <item>Unit B</item>
+        <item>Unit C</item>
+        <item>Unit D</item>
+        <item>Unit E</item>
+    </string-array>
+    <string-array name="unit_doctors">
+        <item>Select a Unit</item>
+        <item>Unit A</item>
+        <item>Unit B</item>
+    </string-array>
+
+
+    //=========== all shift
+    <string-array name="shift_a">
+        <item>Select a Shift</item>
+        <item>Morning Shift</item>
+        <item>Day Shift</item>
+    </string-array>
+
+    //=========== all location
+    <string-array name="location">
+        <item>Select a Location</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Barishal</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+
+    <!--    <string name="breakfast">Breakfast</string>
+    <string name="select_any_one">Select Any One</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+
+
+    <string name="coching_a">Coching_A</string>
+    <string name="coching_b">Coching_B</string>
+    <string name="coching_c">Coching_C</string>
+    <string name="coching_d">Coching_D</string>
+    <string name="coching_e">Coching_E</string>
+
+
+    <string name="unit_a">Unit_A</string>
+    <string name="unit_b">Unit_B</string>
+    <string name="unit_c">Unit_C</string>
+    <string name="unit_d">Unit_D</string>
+    <string name="unit_e">Unit_E</string>
+
+
+    <string name="shift_a">Shift_A</string>
+    <string name="shift_b">Shift_B</string>
+    <string name="shift_c">Shift_C</string>
+    <string name="shift_d">Shift_D</string>
+    <string name="shift_e">Shift_E</string>
+
+
+    <string name="location_a">Location_A</string>
+    <string name="location_b">Location_B</string>
+    <string name="location_c">Location_C</string>
+    <string name="location_d">Location_D</string>
+    <string name="location_e">Location_E</string>-->
+
+    //=======
+    <string-array name="coching_items">
+        <item>Coching A</item>
+        <item>Coching B</item>
+        <item>Coching C</item>
+        <item>Coching D</item>
+    </string-array>
+
+    <string-array name="unit_items">
+        <item>Unit A</item>
+        <item>Unit B</item>
+        <item>Unit C</item>
+        <item>Unit D</item>
+    </string-array>
+
+    <string-array name="shift_items">
+        <item>Shift A</item>
+        <item>Shift B</item>
+        <item>Shift C</item>
+        <item>Shift D</item>
+    </string-array>
+
+    <string-array name="location_items">
+        <item>Location A</item>
+        <item>Location B</item>
+        <item>Location C</item>
+        <item>Location D</item>
+    </string-array>
+
+
+    //===============
+    <string-array name="items_class">
+        <item>Select a category</item>
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+
+    </string-array>
+    <string-array name="select">
+        <item>Select a category</item>
+
+    </string-array>
+
+</resources>

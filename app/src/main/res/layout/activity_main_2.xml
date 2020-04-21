@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity_2">
+
+    <Spinner
+        android:id="@+id/cochingSpin2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:background="@color/colorAccent"
+        android:entries="@array/select"
+
+
+        />
+    <ImageView
+        android:id="@+id/image12"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/cochingSpin2"
+        android:layout_alignRight="@+id/cochingSpin2"
+        android:src="@drawable/download"
+        android:layout_alignTop="@id/cochingSpin2"
+        android:layout_alignBottom="@+id/cochingSpin2"/>
+
+    <Spinner
+        android:id="@+id/unitSPin2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/cochingSpin2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:id="@+id/image22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/unitSPin2"
+        android:layout_alignRight="@+id/unitSPin2"
+        android:src="@drawable/ic_arrow"
+        android:layout_alignTop="@id/unitSPin2"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/unitSPin"/>
+
+    <Spinner
+        android:id="@+id/shiftSpin2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/unitSPin2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:id="@+id/image32"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/shiftSpin2"
+        android:layout_alignRight="@+id/shiftSpin2"
+        android:src="@drawable/download"
+        android:layout_alignTop="@id/shiftSpin2"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/shiftSpin2"/>
+
+    <Spinner
+        android:id="@+id/locationSpin2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/shiftSpin2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"/>
+    <ImageView
+        android:id="@+id/image42"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/locationSpin2"
+        android:layout_alignRight="@+id/locationSpin2"
+        android:src="@drawable/ic_arrow"
+        android:layout_alignTop="@id/locationSpin2"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/locationSpin2"/>
+
+
+</RelativeLayout>

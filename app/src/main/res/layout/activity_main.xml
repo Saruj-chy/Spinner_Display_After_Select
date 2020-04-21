@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/cochingSpin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:background="@color/colorAccent"
+        android:entries="@array/select"
+
+
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/cochingSpin"
+        android:layout_alignRight="@+id/cochingSpin"
+        android:src="@drawable/download"
+        android:layout_alignTop="@id/cochingSpin"
+        android:layout_alignBottom="@+id/cochingSpin"/>
+
+    <Spinner
+        android:id="@+id/unitSPin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/cochingSpin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/unitSPin"
+        android:layout_alignRight="@+id/unitSPin"
+        android:src="@drawable/ic_arrow"
+        android:layout_alignTop="@id/unitSPin"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/unitSPin"/>
+
+    <Spinner
+        android:id="@+id/shiftSpin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/unitSPin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        />
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@+id/shiftSpin"
+        android:layout_alignRight="@+id/shiftSpin"
+        android:src="@drawable/download"
+        android:layout_alignTop="@id/shiftSpin"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/shiftSpin"/>
+
+    <Spinner
+        android:id="@+id/locationSpin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/shiftSpin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        android:background="@color/colorAccent"/>
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/locationSpin"
+        android:layout_alignRight="@+id/locationSpin"
+        android:src="@drawable/ic_arrow"
+        android:layout_alignTop="@id/locationSpin"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/locationSpin"/>
+
+
+</RelativeLayout>
