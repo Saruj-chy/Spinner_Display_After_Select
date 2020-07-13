@@ -13,20 +13,20 @@ import android.widget.Spinner;
 public class MainActivity_2 extends AppCompatActivity {
 
 
-   /* // these are the global variables
+    // these are the global variables
     Spinner cochingSpin2, unitSpin2, shiftSpin2, locationSpin2;
     ImageView image12, image22, image32, image42;
     // string variable to store selected values
     String cochingclass2, unitclass2, shiftclass2, locationclass2;
 
-    Button btn1, btn2;*/
+    Button btn1, btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_2);
 
-      /*  cochingSpin2 = (Spinner) findViewById(R.id.cochingSpin2);
+        cochingSpin2 = (Spinner) findViewById(R.id.cochingSpin2);
         unitSpin2 = (Spinner) findViewById(R.id.unitSPin2);
         shiftSpin2 = (Spinner) findViewById(R.id.shiftSpin2);
         locationSpin2 = (Spinner) findViewById(R.id.locationSpin2);
@@ -34,10 +34,10 @@ public class MainActivity_2 extends AppCompatActivity {
         image12=(ImageView) findViewById(R.id.image12);
         image22=(ImageView) findViewById(R.id.image22);
         image32=(ImageView) findViewById(R.id.image32);
-        image42=(ImageView) findViewById(R.id.image42);*/
+        image42=(ImageView) findViewById(R.id.image42);
 
 
-       /* cochingSpin2.setAdapter(new ArrayAdapter<String>(MainActivity_2.this,R.layout.company_dropdown,R.id.dropdown,getResources().getStringArray(R.array.coching_names)));
+        cochingSpin2.setAdapter(new ArrayAdapter<String>(MainActivity_2.this,R.layout.company_dropdown,R.id.dropdown,getResources().getStringArray(R.array.coching_names)));
 
 
         // Class Spinner implementing onItemSelectedListener
@@ -211,7 +211,7 @@ public class MainActivity_2 extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
-        });*/
+        });
 
 
     }
