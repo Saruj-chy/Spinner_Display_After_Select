@@ -11,13 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity_2"></activity>
-        <activity android:name=".U" />
+        <activity android:name=".MainActivity_2"/>
         <activity android:name=".Server_MainActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Test" />
+<!--        <activity android:name=".MainActivity" />-->
+
         <activity android:name=".Server_Main2" />
-        <activity android:name=".SERVER_Activity">
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         image4=(ImageView) findViewById(R.id.image4);
 
 
-        cochingSpin.setAdapter(new ArrayAdapter<String>(MainActivity.this,R.layout.company_dropdown,R.id.dropdown,getResources().getStringArray(R.array.coching_names)));
+        cochingSpin.setAdapter(new ArrayAdapter<String>(MainActivity.this,R.layout.company_dropdown,
+                R.id.dropdown,getResources().getStringArray(R.array.coching_names)));
 
 
         // Class Spinner implementing onItemSelectedListener
